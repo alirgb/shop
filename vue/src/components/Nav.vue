@@ -9,7 +9,7 @@
     <router-link
       v-if="this.authUser"
       @click.native="handelLogout"
-      :to="{ name: 'Home' }"
+      :to="{ name: 'Login' }"
       >Logout</router-link
     >
 

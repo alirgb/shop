@@ -7,7 +7,7 @@
       <v-flex xs12 class="text-xs-center" mt-3>
         <p v-if="authUser">Hello {{ authUser.name }}</p>
       </v-flex>
-      <Store />
+      <Store v-if="authUser" />
     </v-layout>
   </v-container>
 </template>
