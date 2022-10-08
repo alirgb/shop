@@ -1,16 +1,16 @@
 # shop
 
-basic ecommerce shop project using laravel and vuejs
+## basic ecommerce shop project using laravel and vuejs
 
-to run this project:
+###### to run this project:
 ```
 git clone https://github.com/alirgb/shop
 ```
-create new database - DBNAME -
+###### create new database - DBNAME -
 
-add DBNAME to the .env file in laravel folder
+###### add DBNAME to the .env file in laravel folder
 
-in laravel folder run
+###### in laravel folder run
 ```
 php artisan migrate
 ```
@@ -23,20 +23,21 @@ php artisan db:seed
 ```
 php artisan serve
 ```
-in vue folder run below commands
+###### in vue folder run below commands
 ```
 npm install
 ```
 ```
 npm run serve
 ```
-open in the browser
+###### open in the browser
 ```
 http://localhost:3000
 ```
-then you can register and login
+###### then you can register and login
 
-hint: there is an admin user
+###### hint:
+there is an admin user
 
 email: 
 ```
