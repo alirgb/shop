@@ -30,7 +30,7 @@ open in the browser
 
 http://localhost:3000
 
-then youu can register and login
+then you can register and login
 
 hint: there is an admin user
 
