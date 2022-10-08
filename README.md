@@ -13,11 +13,11 @@ add DBNAME to the .env file in laravel folder
 in laravel folder run
 ```
 php artisan migrate
-
+```
 php artisan passport:install
-
+```
 php artisan db:seed
-
+```
 php artisan serve
 ```
 in vue folder run below commands
