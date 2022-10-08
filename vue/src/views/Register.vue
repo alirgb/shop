@@ -81,7 +81,7 @@ export default {
       localStorage.setItem("token", response.data.token);
       localStorage.setItem("user", response.data.user);
 
-      this.$router.push({ name: "Home" });
+      this.$router.push({ name: "Login" });
     },
   },
 };
