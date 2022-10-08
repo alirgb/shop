@@ -12,6 +12,12 @@ git clone https://github.com/alirgb/shop
 
 ###### in laravel folder run
 ```
+composer install
+```
+```
+composer require laravel/passport
+```
+```
 php artisan migrate
 ```
 ```
